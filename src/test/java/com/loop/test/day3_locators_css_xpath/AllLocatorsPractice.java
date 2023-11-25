@@ -13,6 +13,7 @@ public class AllLocatorsPractice {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
+
         //navigate to https://loopcamp.vercel.app/registration_form.html
         driver.get ("https://loopcamp.vercel.app/registration_form.html");
 
@@ -25,8 +26,6 @@ public class AllLocatorsPractice {
         // this will return us 3 elements, and always will click the first one, that why we should pay attention to locate unique elements
         WebElement gender =driver.findElement(By.name("gender"));
         gender.click();
-
-
 
     }
 }
