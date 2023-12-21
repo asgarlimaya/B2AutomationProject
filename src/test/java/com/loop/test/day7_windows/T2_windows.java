@@ -41,7 +41,9 @@ public class T2_windows extends TestBase {
 //                break;
 //            }
 //        }
-        BrowserUtils.switchWindowAndValidate(driver, "amazon.com" , "Amazon");
+        //BrowserUtils.switchWindowAndValidate(driver, "amazon.com" , "Amazon");
+
+        BrowserUtils.switchToWindow(driver , "facebook");
     }
 
 
